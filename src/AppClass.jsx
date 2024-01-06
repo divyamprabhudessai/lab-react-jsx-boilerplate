@@ -27,4 +27,19 @@ export default class AppClass extends Component{
   }
 
   // code here
+
+  render(){
+    const images = this.imageData();
+
+    return(
+      <div className='grid'>
+      <h1 className='title'>HELLO KALVIUM</h1>
+    {images.map((element ) => (
+      <img src={element.img} id={element.id} width={"650vw"} />
+    ))};
+
+    </div>
+
+    )
+  }
 }

@@ -25,6 +25,21 @@ const imageData = ()=>{
 
 function App() {
   // code here
+
+  const images = imageData();
+  console.log(images);
+
+  return(
+    <div className='grid'>
+      <h1 className='title'>HELLO KALVIUM</h1>
+    {images.map((element ) => (
+      <img src={element.img} id={element.id} width={"650vw"} />
+    ))};
+
+    </div>
+
+
+  )
 }
 
 export default App;
