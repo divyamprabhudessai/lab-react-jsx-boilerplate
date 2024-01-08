@@ -4,11 +4,11 @@ h1{
 }
 
 .grid{
-    margin-left: 5vw;
+    margin-left: 2vw;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 10px;
-    row-gap: -2vw;
+    row-gap: 2vw;
     
 
 }
