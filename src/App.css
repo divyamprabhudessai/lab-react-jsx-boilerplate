@@ -4,7 +4,7 @@ h1{
 }
 
 .grid{
-    margin-left: 2vw;
+    margin-left: 5vw;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 10px;
