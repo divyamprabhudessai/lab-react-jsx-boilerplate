@@ -1,9 +1,13 @@
 /* add your styles here */
-.title{
+h1{
     text-align: center;
 }
 
-img{
-    margin-left: 80px;
-    margin-top: 50px;
+.grid{
+    margin-left: 2vw;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    row-gap: 2vw;
+
 }
