@@ -1,2 +1,3 @@
 node_modules
 # used to ignore large files that do not need to be pushed
+.vercel
